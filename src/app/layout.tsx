@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "KilterCoach",
   description: "Your personal Kilterboard training assistant",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
